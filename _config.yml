@@ -117,7 +117,7 @@ author:
   avatar           : "/assets/images/avatar.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Apasionado por el conocimiento y las matemáticas. Creo que el conocimiento debe ser compartido."
   location         : "México, Ver"
-  email            : "marcoandre0502@hotmail.com"
+  email            : 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"

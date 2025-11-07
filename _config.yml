@@ -36,9 +36,9 @@ copyright_url            : # "copyright" URL, defaults to site.url
 comments:
   provider: "giscus"
   giscus:
-    repo_id: "TU_REPO_ID"  # Lo obtendremos en el siguiente paso
+    repo_id: "R_kgDOQRVq7g"  # Lo obtendremos en el siguiente paso
     category_name: "Blog Comments"
-    category_id: "TU_CATEGORY_ID"  # Lo obtendremos en el siguiente paso
+    category_id: "DIC_kwDOQRVq7s4CxjSQ" # Lo obtendremos en el siguiente paso
     discussion_term: "pathname"  # Asocia cada post con un discussion
     reactions_enabled: "1"  # Muestra reacciones de GitHub
     theme: "dark_dimmed"  # Combina perfecto con tu skin "contrast"

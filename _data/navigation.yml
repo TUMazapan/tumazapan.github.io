@@ -7,3 +7,8 @@ main:
     url: /contact/
   - title: "Blog"
     url: /posts/
+footer:
+  - title: "GitHub"
+    url: https://github.com/TUMazapan
+  - title: "Política de Privacidad"
+    url: /privacy/

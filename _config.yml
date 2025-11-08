@@ -78,27 +78,21 @@ analytics:
 
 # Site Author
 author:
-  name             : "Marco"
-  avatar           : "/assets/images/avatar.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Apasionado por el conocimiento y las matemáticas. Creo que el conocimiento debe ser compartido."
-  location         : "México, Ver"
-  email            : 
+  name: "Marco"
+  avatar: "/assets/images/avatar.jpg"
+  bio: "Apasionado por el conocimiento y las matemáticas. Creo que el conocimiento debe ser compartido."
+  location: "México, Ver"
+  email: 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-       url: "marcoandre0502@hotmail.com"
+      url: "mailto:marcoandre0502@hotmail.com"  # ✅ Añadido mailto: y corregida indentación
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-   # - label: "Twitter"
-    #  icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-   # - label: "Facebook"
-     # icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      # url: "https://your-website.com  "
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-       url: "https://github.com/TUMazapan"
+      url: "https://github.com/TUMazapan"  # ✅ Corregida indentación y eliminados espacios al final
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/tumazapan05?igsh=bzBuNWdiajNrc3Fy"
@@ -125,6 +119,7 @@ footer:
       icon: "fab fa-fw fa-instagram"
       # url:
   since: "2013"
+
 
 
 # Reading Files

@@ -35,17 +35,12 @@ enable_copy_code_button  : # true, false (default)
 copyright                : # "copyright" name, defaults to site.title
 copyright_url            : # "copyright" URL, defaults to site.url
 comments:
-  provider: "giscus"
-  giscus:
-    repo_id: "R_kgDOQRVq7g"  # Lo obtendremos en el siguiente paso
-    category_name: "Blog Comments"
-    category_id: "DIC_kwDOQRVq7s4CxjSQ" # Lo obtendremos en el siguiente paso
-    discussion_term: "pathname"  # Asocia cada post con un discussion
-    reactions_enabled: "1"  # Muestra reacciones de GitHub
-    theme: "dark_dimmed"  # Combina perfecto con tu skin "contrast"
-    input_position: "top"  # El campo de comentario aparece arriba
-    lang: "es"  # Español
-    lazy: true  # Carga solo cuando el usuario se acerca a los comentarios
+  provider: "utterances"
+  utterances:
+    repo: "TUMazapan/tumazapan.github.io"
+    issue_term: "pathname"
+    theme: "github-dark-orange"  # Tema oscuro que combina con tu skin "contrast"
+    label: "comentario"
 # SEO Related
 google_site_verification :
 bing_site_verification   :

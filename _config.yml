@@ -42,14 +42,15 @@ defaults:
     values:
       comments: true
       
-# Comentarios con Staticman
 comments:
-  provider: "staticman_v2"
-  staticman:
-    branch: "master"  # o "main" si usas main como rama principal
-    endpoint: "https://api.staticman.net/v2/entry/github/"  # Endpoint público
-    # Opcional: puedes usar tu propio endpoint si lo tienes
-    
+  provider: "utterances"
+  utterances:
+    repo: "TUMazapan/tumazapan.github.io"
+    issue_term: "pathname"
+    theme: "github-dark"
+    label: "comentario"
+  
+
 # SEO Related  
 google_site_verification :
 bing_site_verification   :

@@ -41,15 +41,14 @@ defaults:
       type: posts
     values:
       comments: true
-
-# En tu _config.yml
+      
+# Comentarios con Staticman
 comments:
-  provider: "utterances"
-  utterances:
-    repo: "TUMazapan/tumazapan.github.io"
-    issue_term: "pathname"
-    theme: "github-dark"
-    label: "comentario"
+  provider: "staticman_v2"
+  staticman:
+    branch: "master"  # o "main" si usas main como rama principal
+    endpoint: "https://api.staticman.net/v2/entry/github/"  # Endpoint público
+    # Opcional: puedes usar tu propio endpoint si lo tienes
     
 # SEO Related  
 google_site_verification :

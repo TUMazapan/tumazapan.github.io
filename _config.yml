@@ -35,8 +35,19 @@ enable_copy_code_button  : # true, false (default)
 copyright                : # "copyright" name, defaults to site.title
 copyright_url            : # "copyright" URL, defaults to site.url
 # Comentarios desactivados temporalmente
-comments: false
-# SEO Related
+comments:
+  provider: "giscus"
+  giscus:
+    repo_id: "R_kgDOQRVq7g"
+    category_name: "Blog Comments"
+    category_id: "DIC_kwDOQRVq7s4CxjSQ"
+    discussion_term: "pathname"
+    reactions_enabled: "1"
+    theme: "fro" 
+    input_position: "top"
+    lang: "es"
+    lazy: false
+# SEO Related  
 google_site_verification :
 bing_site_verification   :
 naver_site_verification  :

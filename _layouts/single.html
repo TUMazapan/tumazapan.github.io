@@ -65,7 +65,10 @@ layout: default
       {% include post_pagination.html %}
     </div>
 
-
+     {% if page.comments != false %}
+      {% include comments.html %}
+    {% endif %}
+    
   </article>
 
   {% comment %}<!-- only show related on a post page when `related: true` -->{% endcomment %}

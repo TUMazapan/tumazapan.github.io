@@ -15,3 +15,25 @@ search: false
 .page__content p {
   font-family: 'IBM Plex Sans', sans-serif;
 }
+
+/* Siempre muestra el menú hamburguesa, incluso en pantallas grandes */
+.site-nav {
+  display: block !important;
+}
+
+.site-nav__toggle {
+  display: block !important;
+}
+
+.site-nav__items {
+  display: none !important;
+}
+
+.site-nav__toggle:checked ~ .site-nav__items {
+  display: block !important;
+}
+
+/* Oculta el menú horizontal en todas las pantallas */
+.main-navigation {
+  display: none !important;
+}

@@ -21,6 +21,7 @@ gallery:
   - url: /assets/images/_analisis_images/aim3.jpg
     image_path: /assets/images/_analisis_images/aim3.jpg
     alt: "Texto alternativo descriptivo para la imagen 3"
+layout: single
 ---
 
 Aquí va el contenido principal de tu análisis. Puedes escribir texto, usar encabezados, listas, etc.

@@ -83,7 +83,7 @@ search_provider: "lunr"
 analytics:
   provider               :  "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          :
+    tracking_id          : "G-K0870MFJK1"
     anonymize_ip         : true # true, false (default)
 
 

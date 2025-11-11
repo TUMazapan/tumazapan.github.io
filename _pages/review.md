@@ -1,8 +1,8 @@
 ---
 title: Reseñas
 layout: collection
-collection: review
-permalink: /review/
+collection: reviews
+permalink: /reviews/
 ---
 
 Aquí encontrarás una lista de todas mis reviews.

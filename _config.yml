@@ -35,14 +35,7 @@ enable_copy_code_button  : # true, false (default)
 copyright                : # "copyright" name, defaults to site.title
 copyright_url            : # "copyright" URL, defaults to site.url
 
-defaults:
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-      comments: true
+
 
 defaults:
   # _posts
@@ -56,8 +49,55 @@ defaults:
       comments: true
       share: true
       related: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      comments: true
+ # _proyectos
+  - scope:
+      path: ""
+      type: proyectos
+    values:
+      layout: single
+      author_profile: true
+      share: true
+  # _notas
+  - scope:
+      path: ""
+      type: notas
+    values:
+      layout: single
+      author_profile: true
+      share: true
+  # _analisis
+  - scope:
+      path: ""
+      type: analisis
+    values:
+      layout: single
+      author_profile: true
+      share: true
+  # _reseñas
+  - scope:
+      path: ""
+      type: reseñas
+    values:
+      layout: single
+      author_profile: true
+      share: true
+  # _tutoriales
+  - scope:
+      path: ""
+      type: tutoriales
+    values:
+      layout: single
+      author_profile: true
+      share: true
 
-      
+
 comments:
   provider: "utterances"
   utterances:
@@ -150,7 +190,22 @@ footer:
       # url:
   since: "2013"
 
-
+collections:
+  proyectos:
+    output: true
+    permalink: /:collection/:path/
+  notas:
+    output: true
+    permalink: /:collection/:path/
+  analisis:
+    output: true
+    permalink: /:collection/:path/
+  reviews:
+    output: true
+    permalink: /:collection/:path/
+  tutoriales:
+    output: true
+    permalink: /:collection/:path/
 
 # Reading Files
 include:
@@ -302,7 +357,7 @@ tag_archive:
 # jekyll-archives:
 #   enabled:
 #     - categories
-#     - tags
+#     - tags  
 #   layouts:
 #     category: archive-taxonomy
 #     tag: archive-taxonomy

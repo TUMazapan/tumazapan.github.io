@@ -83,7 +83,7 @@ defaults:
   # _reseñas
   - scope:
       path: ""
-      type: reseñas
+      type: reviews
     values:
       layout: single
       author_profile: true

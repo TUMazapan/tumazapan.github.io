@@ -7,18 +7,14 @@ main:
     url: /posts/
   - title: "Contacto"
     url: /contact/
-  # --- Menú contraído ---
-  - title: "Más"
-    url: "#"
-    children:
-      - title: "Notas"
-        url: /notas/
-      - title: "Análisis"
-        url: /analisis/
-      - title: "Reseñas"
-        url: /resenas/
-      - title: "Proyectos"
-        url: /proyectos/
+  - title: "Notas"
+    url: /notas/
+  - title: "Análisis"
+    url: /analisis/
+  - title: "Reseñas"
+    url: /resenas/
+  - title: "Proyectos"
+    url: /proyectos/
 footer:
   - title: "GitHub"
     url: https://github.com/TUMazapan

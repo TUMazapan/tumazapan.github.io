@@ -12,7 +12,7 @@ main:
   - title: "Análisis"
     url: /analisis/
   - title: "Reseñas"
-    url: /review/
+    url: /reviews/
   - title: "Proyectos"
     url: /proyectos/
   - title: "Tutoriales"

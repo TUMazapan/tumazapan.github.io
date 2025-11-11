@@ -59,6 +59,9 @@ yandex_site_verification :
 baidu_site_verification  :
 
 # Social Sharing
+og_image: "/assets/images/site-preview.png"  # Imagen para compartir en redes sociales
+
+# Social Sharing
 twitter:
   username               :
 facebook:

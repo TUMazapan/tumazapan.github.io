@@ -3,10 +3,14 @@ main:
     url: /
   - title: "Sobre mí"
     url: /about/
-  - title: "Contacto"
-    url: /contact/
   - title: "Blog"
     url: /posts/
+  - title: "Categorías"
+    url: /categories/
+  - title: "Etiquetas"
+    url: /tags/
+  - title: "Contacto"
+    url: /contact/
 footer:
   - title: "GitHub"
     url: https://github.com/TUMazapan

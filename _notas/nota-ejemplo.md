@@ -1,8 +1,10 @@
----
+---  
 title: "Una Nota Breve"
 layout: single
 author_profile: true
 excerpt: "This post should display a **header with an overlay image**, if the theme supports it."
+classes: wide
+
 header:
   overlay_image: /assets/images/notas/ni1.jpg
   image_description: "A description of the image"

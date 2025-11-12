@@ -5,8 +5,13 @@ excerpt: "Breve descripción del contenido del análisis."
 date: 2023-10-15
 
 header:
-  image: /assets/images/site-preview.png
-  teaser: /assets/images/site-preview.png
+  overlay_image:  /assets/images/notas/ni1.jpg
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+  actions:
+    - label: "Download"
+      url: "https://github.com"
+
 sidebar:
   - title: "Rol o Categoría"
     image: /assets/images/analisis/aim3.jpg # <-- Cambiado: sin guion bajo

@@ -6,20 +6,20 @@ header:
   teaser: /assets/images/site-preview.png
 sidebar:
   - title: "Rol o Categoría"
-    image: /assets/images/_analisis_images/aim3.jpg
+    image: /assets/images/analisis/aim3.jpg # <-- Cambiado: sin guion bajo
     image_alt: "Texto alternativo para la imagen"
     text: "Escribe aquí el rol o información relevante"
   - title: "Responsabilidades o Detalles"
     text: "Describe aquí las partes importantes del análisis."
 gallery:
-  - url: /assets/images/_analisis_images/aim1.jpg
-    image_path: /assets/images/_analisis_images/aim1.jpg
+  - url: /assets/images/analisis/aim1.jpg # <-- Cambiado: sin guion bajo
+    image_path: /assets/images/analisis/aim1.jpg # <-- Cambiado: sin guion bajo
     alt: "Texto alternativo descriptivo para la imagen 1"
-  - url: /assets/images/_analisis_images/aim2.jpg
-    image_path: /assets/images/_analisis_images/aim2.jpg
+  - url: /assets/images/analisis/aim2.jpg # <-- Cambiado: sin guion bajo
+    image_path: /assets/images/analisis/aim2.jpg # <-- Cambiado: sin guion bajo
     alt: "Texto alternativo descriptivo para la imagen 2"
-  - url: /assets/images/_analisis_images/aim3.jpg
-    image_path: /assets/images/_analisis_images/aim3.jpg
+  - url: /assets/images/analisis/aim3.jpg # <-- Cambiado: sin guion bajo
+    image_path: /assets/images/analisis/aim3.jpg # <-- Cambiado: sin guion bajo
     alt: "Texto alternativo descriptivo para la imagen 3"
 layout: single
 ---

@@ -49,6 +49,7 @@ defaults:
       comments: true
       share: true
       related: true
+      classes: wide #
   - scope:
       path: ""
       type: pages
@@ -80,6 +81,7 @@ defaults:
       layout: single
       author_profile: true
       share: true
+      classes: wide #
   # _reseñas
   - scope:
       path: ""
@@ -88,6 +90,7 @@ defaults:
       layout: single
       author_profile: true
       share: true
+      classes: wide #
   # _tutoriales
   - scope:
       path: ""
@@ -96,7 +99,7 @@ defaults:
       layout: single
       author_profile: true
       share: true
-
+      classes: wide #
 
 comments:
   provider: "utterances"

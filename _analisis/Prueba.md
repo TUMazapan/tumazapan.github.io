@@ -3,7 +3,7 @@ title: "Ejemplo 1"
 excerpt: "Breve descripción del contenido del análisis."
 # --- Añadido ---
 date: 2025-11-13 # Fecha de publicación
-last_modified_at: 2025-11-13 # Fecha de última modificación (opcional, pero recomendado)
+
 header:
   image: /assets/images/site-preview.png
   teaser: /assets/images/site-preview.png

@@ -2,8 +2,8 @@
 title: "Ejemplo 1"
 excerpt: "Breve descripción del contenido del análisis."
 header:
-  image: /assets/images/_analisis_images/aim1.jpg
-  teaser: /assets/images/_analisis_images/aim2.jpg
+  image: /assets/images/site-preview.png
+  teaser: /assets/images/site-preview.png
 sidebar:
   - title: "Rol o Categoría"
     image: /assets/images/_analisis_images/aim3.jpg

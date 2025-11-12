@@ -15,3 +15,6 @@ header:
 ---
 
 Una idea o reflexión corta sobre algo que aprendí.
+
+
+![Descripción de la imagen](/assets/images/notas/ni1.jpg)

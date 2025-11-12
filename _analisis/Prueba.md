@@ -3,7 +3,7 @@ title: "Ejemplo 1"
 excerpt: "Breve descripción del contenido del análisis."
 
 date: 2023-10-15
-
+toc: true
 header:
   overlay_image:  /assets/images/notas/ni1.jpg
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background

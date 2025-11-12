@@ -1,8 +1,8 @@
 ---
 title: "Ejemplo 1"
 excerpt: "Breve descripción del contenido del análisis."
-# --- Añadido ---
-date: 2025-11-13 # Fecha de publicación
+
+date: 2023-10-15
 
 header:
   image: /assets/images/site-preview.png

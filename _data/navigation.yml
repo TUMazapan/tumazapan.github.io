@@ -3,8 +3,6 @@ main:
     url: /
   - title: "Sobre mí"
     url: /about/
-  - title: "Blog"
-    url: /posts/
   - title: "Contacto"
     url: /contact/
   - title: "Notas"

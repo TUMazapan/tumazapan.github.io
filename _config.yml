@@ -14,6 +14,7 @@
 # Configuración mínima para que funcione en GitHub Pages
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "contrast"
+mathjax: true
 
 # Site Settings
 locale: "es-ES"  # Cambiado a español para mejor SEO local
